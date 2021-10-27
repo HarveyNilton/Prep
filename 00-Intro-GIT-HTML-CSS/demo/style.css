@@ -1,1 +1,24 @@
 .color{color: rgb(25, 0, 255);}
+
+#thirdDiv{
+    width: 500px;
+    height: 600px;
+    background-color: darkorange;
+}
+.divClass{
+    padding: 50px;
+    border: darkred;
+
+}
+#spanId{
+    font-size: 25px;
+    margin: 50px;
+    color: darkorange;
+}
+h1{
+    color: darkgreen;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
