@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,14 +28,14 @@ const nuevoModulo = 21 % 5 === null;
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-
+  return x - y;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-
+return x === y;
 }
 
 function tienenMismaLongitud(str1, str2) {
